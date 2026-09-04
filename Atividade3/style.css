@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Times New Roman";
+}
+
+.header-1 { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #070231;
+    padding: 30px 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-logo {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    display: block;
+
+    color: white;
+    text-decoration: none;
+
+    font-size: 18px;
+
+    padding: 10px;
+
+    border-radius: 5px;
+}
+.nav-link.active,
+.nav-link:hover {
+    background-color: #043a6d;
+}
+
+
+main {
+    margin-left: 250px;
+    padding: 40px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 35px;
+    border-radius: 8px;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.introduction-data {
+    margin-bottom: 20px;
+}
+
+.introduction-data h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.introduction img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+p {
+    margin-bottom: 0;
+    text-align: justify;
+    font-size: 17px;
+    text-indent: 30px
+}
+
+.application-container ul {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.application-container li {
+    margin-bottom: 15px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.chatbot-subtitle,
+.research-subtitle,
+.study-subtitle,
+.privacy-subtitle,
+.information-subtitle,
+.plagiarism-subtitle,
+.transparency-subtitle,
+.prejudice-subtitle,
+.professor-subtitle {
+
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.references-container p {
+    margin-bottom: 15px;
+}
+
+
