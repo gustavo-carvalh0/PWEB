@@ -10,6 +10,6 @@ let resto = valor1 % valor2;
 alert("Soma: " + soma +
     "\nSubtração: " + subtracao +
     "\nMultiplicação: " + multiplicacao +
-    "\nDivisão: " + divisao +
+    "\nDivisão: " + divisao.toFixed(2) +
     "\nResto: " + resto
 )
